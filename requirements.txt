@@ -1,0 +1,5 @@
+#requirements
+kafka-python==2.0.2
+pymongo==4.3.3
+python-decouple==3.8
+tweepy==4.14.0
