@@ -1,6 +1,10 @@
 #requirements
 kafka-python==2.0.2
-pymongo==4.3.3
-python-decouple==3.8
+#pymongo>=4.3,<5
+#python-decouple==3.8
 tweepy==4.14.0
-textblob==0.17.1
+textblob==0.18.0.post0 
+requests==2.27.1  # Version spécifique pour éviter les conflits
+requests-oauthlib==1.3.1
+oauthlib==3.2.2
+
