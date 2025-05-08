@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Twitter API credentials
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAIaA1AEAAAAA%2FQ3C8Ak6Vkz%2F5YYiKueJsagoZvE%3DFVjK5UT5NtsFfB94883h1YS508b7NGCSlXpHyPiY0LI2bhUWjf"  # Replace with your bearer token
+BEARER_TOKEN = ""  # Replace with your bearer token
 
 # Kafka configuration
 KAFKA_BOOTSTRAP_SERVERS = 'kafka:29092'
