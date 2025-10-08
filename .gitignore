@@ -1,1 +1,13 @@
 checkpoint/
+# Ignore MongoDB data
+mongo/
+data/
+*.wt
+*.log
+
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+.env
+venv/
+
